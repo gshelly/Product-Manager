@@ -50,8 +50,8 @@ const ProductDetails = (props) => {
       <tbody>
         <tr>
           <td> {displayProduct.title} </td>
-          <td> {displayProduct.price} </td>
-          <td> {displayProduct.description} </td>
+          <td> ${displayProduct.price} </td>
+          <td style={{width:"200px"}}> {displayProduct.description} </td>
         </tr>
         <tr>
           <td colSpan="3"> 

@@ -46,7 +46,7 @@ const UpdateProductForm = (props) => {
           <label className="labelTitle"> Description </label>
           <input className="contentInput" type="text" onChange={(e) => setDesc(e.target.value)} value={desc} />
         </div>
-        <button id="update_button" onClick={cancelUpdate}> Cancel Update </button>
+        <button id="update_button" onClick={cancelUpdate}> Cancel </button>
         <input id="update_button" type="submit" value="Done" />
       </form>
     </div>
