@@ -31,7 +31,7 @@ const getSingleProduct = ((req, res) => {
 const updateExistingProduct = ((req, res) => {
   Product.findOneAndUpdate({_id: req.params.id},
     req.body,
-    {new:true}
+    {new:false}
     )
     .then((updatedProduct) => res.json({updatedProduct:updatedProduct}))
     .catch(err => res.json({errorMessage: err}))
