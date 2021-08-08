@@ -1,0 +1,92 @@
+.outerArea {
+  background-color: #f6f6f6;
+  padding: 10px;
+  margin: 10px auto;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.labelTitle {
+  color: #b9b9b9;
+  /* width: 100px; */
+  text-align: left;
+  margin: 10px;
+}
+
+.contentInput {
+  height: 30px;
+  width: 62%;
+  border: 1px solid #b9b9b9;
+  border-radius: 5px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+#create_button {
+  background-color: #e6e6e6;
+  width: 150px;
+  height: 22px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#result-table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  height: 40px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  padding: 0px 20px;
+}
+
+td {
+  height: 30px;
+  background-color: #e6e6e6;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+#result-table {
+  /* width: 300px; */
+  border-collapse: collapse;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+#cancel {
+  float: right;
+  color:red;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  font-size: 10px;
+  height: 18px;
+  margin: 0px 0px 0px 20px;
+}
+
+#product-list {
+  text-decoration: underline;
+  background-color: transparent;
+  border: none;
+}
+
+#update_button {
+  background-color: #e6e6e6;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.detailsButton {
+  background-color: black;
+  color: white;
+}
